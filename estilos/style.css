@@ -12,9 +12,19 @@ main{
     height: 100vh;
     width: 100vw;
     position: relative;
-    background: grey url(imagens/fundo-madeira.jpg) no-repeat;
+    background: grey url(imagens/wooden-floorboards-with-wooden-wall.jpg) no-repeat center center;
     background-size: cover;
 
+}
+#filter{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.541);
+    position: absolute;
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 #telemovel{
     height:400px; 
@@ -28,11 +38,19 @@ main{
     
 
 }
+iframe:active , #telemovel:active{
+    
+    transition: 10s linear;
+    
+    height: 50%;
+    width: 25%;
+}
 
 iframe{
     height: 309px;
     width: 172px;
     position: absolute;
+    
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
