@@ -3,12 +3,3 @@
     padding: 0px;
     margin: 0px;
 }
-html,body{
-    width: 150px;
-    height: 2850px ;
-}
-body{
-     width: 166px;
-    background: rgb(124, 124, 124) no-repeat center center;
-    background-size: cover;
-}
