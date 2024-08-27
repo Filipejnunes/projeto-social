@@ -32,7 +32,7 @@ body{
 #telemovel{
     height:400px; 
     width:200px;
-    background: url(imagens/iphone-7-png-33139.png)no-repeat center center;
+    background: url(imagens/frame-iphone.png)no-repeat center center;
     background-size: cover;
     position: absolute;
     top: 50%;
@@ -52,8 +52,8 @@ body{
 
 }
 iframe{
-    height: 230px;
-    width: 130px;
+    height: 305px;
+    width: 172px;
     position: absolute;
     
     top: 50%;
